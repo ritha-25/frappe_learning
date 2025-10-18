@@ -1,0 +1,21 @@
+2025-10-18 20:41:09,662 DEBUG cd frappe-bench && python3 -m venv env
+2025-10-18 20:41:13,351 DEBUG cd frappe-bench && /workspaces/frappe_learning/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-10-18 20:41:16,003 DEBUG cd frappe-bench && /workspaces/frappe_learning/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-10-18 20:41:18,400 LOG Getting frappe
+2025-10-18 20:41:18,400 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-10-18 20:41:23,317 LOG Installing frappe
+2025-10-18 20:41:23,319 DEBUG cd /workspaces/frappe_learning/frappe-bench && /workspaces/frappe_learning/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspaces/frappe_learning/frappe-bench/apps/frappe 
+2025-10-18 20:43:04,448 DEBUG cd /workspaces/frappe_learning/frappe-bench/apps/frappe && yarn install --check-files
+2025-10-18 20:43:53,356 DEBUG cd frappe-bench && bench build
+2025-10-18 20:43:53,670 INFO /home/codespace/.python/current/bin/bench build
+2025-10-18 20:44:17,860 LOG setting up backups
+2025-10-18 20:44:18,916 ERROR There was a problem while creating frappe-bench
+2025-10-18 20:44:18,918 WARNING /home/codespace/.python/current/bin/bench init frappe-bench --frappe-branch version-15 executed with exit code 1
+2025-10-18 20:53:06,136 INFO /home/codespace/.python/current/bin/bench new-site learningsite.local
+2025-10-18 20:56:00,651 INFO /home/codespace/.python/current/bin/bench start
+2025-10-18 20:56:01,641 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2025-10-18 20:56:01,686 INFO /home/codespace/.python/current/bin/bench worker
+2025-10-18 20:56:01,707 INFO /home/codespace/.python/current/bin/bench schedule
+2025-10-18 20:56:01,799 INFO /home/codespace/.python/current/bin/bench watch
+2025-10-18 21:11:55,526 INFO /home/codespace/.python/current/bin/bench start
+2025-10-18 21:12:12,166 INFO /home/codespace/.python/current/bin/bench site ls

@@ -1,0 +1,6 @@
+2025-10-18 20:56:03,270 Worker rq:worker:5da517a0001f4d1eab0551e049d2bdb6 started with PID 72800, version 1.15.1
+2025-10-18 20:56:03,270 Subscribing to channel rq:pubsub:5da517a0001f4d1eab0551e049d2bdb6
+2025-10-18 20:56:03,277 *** Listening on workspaces-frappe_learning-frappe-bench:short, workspaces-frappe_learning-frappe-bench:default, workspaces-frappe_learning-frappe-bench:long...
+2025-10-18 20:56:03,278 Cleaning registries for queue: workspaces-frappe_learning-frappe-bench:short
+2025-10-18 20:56:03,279 Cleaning registries for queue: workspaces-frappe_learning-frappe-bench:default
+2025-10-18 20:56:03,281 Cleaning registries for queue: workspaces-frappe_learning-frappe-bench:long
